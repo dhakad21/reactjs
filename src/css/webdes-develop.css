@@ -1,0 +1,56 @@
+.ranking {
+    background: url(../images/design/design-development.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ranking p {
+    color: #fff;
+}
+.overseas h1, .overseas h2 {
+    color: #fff;
+}
+.overseas h1 strong {
+    font-size: 60px;
+}
+.overseas.responsive h1, .overseas.responsive h2 {
+    color: #000;
+}
+.overseas .image img {
+    max-width: 250px;
+}
+.twice-block {
+    margin: 40px auto;
+}
+.twice-block .row {
+    display: flex;
+	
+}
+.order2 {
+    order: 2;
+}
+.twice-block .block-content {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.twice-block .block-content aside {
+    display: table-cell;
+    vertical-align: middle;
+}
+.twice-block .text-section:before {
+    content: "";
+    background: #ddd;
+    position: absolute;
+    z-index: 0;
+    left: 15px;
+    bottom: 0;
+    width: 0px;
+    top: 0;
+	-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;
+}
+.twice-block .text-section:hover:before {
+    width: auto;
+  
+	-webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s;
+}
+

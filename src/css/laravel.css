@@ -1,0 +1,74 @@
+.content.laravel-services {
+    background: #efefef;
+}
+.laravel-services ul li {
+    background: #fff;
+    padding: 15px !important;
+    box-shadow: 0px 8px 15px 0px #999;
+    margin-bottom: 20px;
+}
+.laravel-services li span.icon {
+    float: left;
+    display: inline-block;
+    padding-right: 20px;
+}
+.laravel-services li span.icon {
+    float: left;
+    display: block;
+    padding-right: 20px;
+    height: 130px;
+}
+.laravel-services li span.icon i {
+    width: 45px;
+    height: 45px;
+     background: #1783c1; 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 45px;
+    border-radius: 50%;
+    color: #fff;
+    background: rgb(23, 131, 193);
+}
+.laravel-services .left_cols {
+    background: #fff;
+    padding: 15px;
+    color: #333;
+    box-shadow: 0px 8px 15px 0px #999;
+    border-radius: 0 0 15px 15px;
+}
+.laravel-services .left_cols h1, .laravel-services .left_cols h1 p {
+        color: #333;
+}
+.laravel-services .right .right-mark {
+    background-position: center;
+}
+.laravel-services .left_cols h1 p .right-mark {
+    background-position: center;
+    background-size: 12px;
+    height: 15px;
+}
+.laravel_banner {
+    background: url(../images/laravel/laravel-banner.jpg);
+    padding: 150px 0;
+    background-size: cover;
+}
+.laravel_banner img {
+    max-width: 160px;
+    width: auto;
+}
+.laravel_banner .image h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.laravel_banner .image h4.text-center {
+    color: #fff;
+    font-size: 30px;
+}
+@media(min-width:768px) {
+.laravel-services .left_cols img {
+    max-width: 200px;
+}
+}

@@ -1,0 +1,197 @@
+.why-opencart {
+	padding: 0px 0;
+	background: url(../images/cms/cmback.jpg);
+	position: relative;
+	overflow: hidden;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+}
+.why-opencart .right-mark {
+    height: 16px;
+    width: 14px;
+    background-size: 16px;
+}
+.why-opencart h3, .why-opencart p, .why-opencart {
+    color: #fff;
+}
+.why-opencart h3 {
+    font-size: 55px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.why-opencart p, .why-opencart li {
+    font-size: 18px;
+}
+.oc-ecommerce {
+    padding: 50px 0 80px;
+}
+.opencart-develop.with-back {
+    background: #2bbdee;
+    padding: 50px 0;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+	-webkit-clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+}
+.opencart-develop {
+ padding: 20px 0;
+}
+.opencart-develop ul {
+    padding: 0;
+}
+.opencart-develop .solid-border-left {
+    padding: 22px 15px;
+}
+.opencart-develop .solid-border {
+   
+}
+.opencart-develop h3 {
+    font-family: sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.opencart-develop .right-mark {
+    height: 16px;
+    width: 20px;
+    background-size: 15px;
+    background-position: right;
+}
+.opencart-develop .solid-border-left li {
+    font-size: 18px;
+}
+.opencart-history {
+    background: #f7f6fb;
+    clip-path: polygon(0% 0%, 100% 40px, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0% 0%, 100% 40px, 100% 100%, 0 100%);
+    padding: 50px 0; 
+}
+.opencart-history .history-inner ul {
+    padding: 0;
+}
+.opencart-history .history-inner li {
+    font-size: 18px;
+    line-height: 34px;
+    position: relative;
+    padding-left: 20px;
+}
+.opencart-history .history-inner .right-mark {
+    height: 14px;
+    width: 16px;
+    background-size: 10px;
+    background-position: center;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.opencart-history .history-inner.left-side h1 {
+    padding-top: 45px;
+}
+.opencart-history h1 {
+    color: #df961a;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+}
+.opencart-history h1 strong {
+    color: #030003;
+    font-weight: 900;
+    padding-left: 7px;
+}
+.opencart-develop.with-back h3, .opencart-develop.with-back p, .opencart-develop.with-back li {
+    color: #fff;
+}
+.wordpress-development .top-heading {
+    background: #2a324e;
+       padding: 60px 0;
+}
+.wordpress-development .top-heading h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 900;
+}
+.wordpress-development .top-heading h2, .wordpress-development .top-heading h3, .wordpress-development .top-heading h4 {
+    color: #fff;
+}
+.wordpress-development .top-heading h3 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 22px;
+}
+.wordpress-development span.web-icons {
+    display: inline-block;
+    float: left;
+}
+.wordpress-development .wrap i {
+    float: left;
+    padding: 0px 10px 0px 0;
+    margin-left: 0;
+}
+.wordpress-development .wrap i:before {
+    margin-left: 0;
+    font-size: 40px;
+    line-height: 50px;
+}
+.wordpress-development span.web-icons {
+    display: inline-block;
+    float: left;
+}
+.wordpress-development span img {
+    width: 48px;
+}
+.wordpress_top_part {
+    padding: 50px 0;
+}
+.wordpress-bottom {
+    background: #21bd9d;
+	    padding: 50px 0;
+}
+.wordpress-bottom h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+	    text-transform: capitalize;
+}
+.wordpress-bottom ul {
+	display: inline-block;
+    padding: 20px 20px;
+       margin: 0;
+    border-radius: 5px;
+}
+.wordpress-bottom ul .services_inner {
+    background: #fff;
+    padding: 15px;
+    box-shadow: 12px 12px 2px 1px #0a6d584a;
+    min-height: 195px;
+}
+.wordpress-bottom .services_inner h3 {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 0;
+    text-transform: capitalize;
+}
+
+@media(max-width:767px) {
+	.opencart-history h1 strong {
+    display: block;
+}
+.why-opencart {
+    padding-bottom: 90px;
+}
+.oc-ecommerce {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.opencart-history {
+    padding-top: 40px;
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 0%, 100% 0, 100% 100%, 0 100%);
+}
+.wordpress-bottom .container {
+    padding: 0;
+}
+.wordpress-bottom ul {
+    padding: 0;
+}
+	}
+

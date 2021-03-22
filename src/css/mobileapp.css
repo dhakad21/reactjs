@@ -1,0 +1,73 @@
+#services_msg {
+    background: #75d5c2;
+}
+#why-choose-us {
+    background: #f7f7f7;
+}
+#mobile-app-image {
+    background: #74a1e2;
+   padding: 20px 0 0;
+}
+#mobile-app-image #image {
+    background: url(../images/app/opencart-mobile-app.png);
+    background-repeat: no-repeat;
+    background-position: 200px top;
+    background-size: 570px auto;
+}
+#mobile-app-image .text-aria {
+    position: relative;
+    min-height: 590px;
+    display: block;
+}
+#mobile-app-image .text-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+#mobile-app-image .text-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+#mobile-app-image .text-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+#mobile-app-image .text-inner h3, #mobile-app-image .text-inner li {
+    color: #fff;
+}
+#mobile-app-image .text-inner ul {
+    padding: 0;
+}
+#mobile-app-image .text-inner li {   
+    background-size: 15px;
+    background-position: left center;
+}
+#mobile-app-image2 .text-aria {
+    padding: 20px 0;
+}
+#mobile-app-image2 ul {
+    padding: 0;
+}
+#mobile-app-image2 li {
+    color: #0082a9;
+}
+#mobile-app-image2 .inner-image img {
+    width: auto;
+    margin: 40px 0;
+}
+#mobile-app-image2 .text-aria .text-overlay {
+    position: relative;
+}
+@media(max-width:767px) {
+
+#filter_container .isotope-item {
+    width: auto; 
+}
+.hexagon a {
+    min-height: 100px;
+}
+
+	}

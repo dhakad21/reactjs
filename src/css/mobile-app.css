@@ -1,0 +1,266 @@
+/*shortcode*/
+.mb20 {
+	margin-bottom: 20px;
+}
+/*shortcode*/
+div#app-platform {
+	background: #f1f4f4;
+	padding: 30px 0;
+}
+.mobile-add-development h2.text-center, #app-platform h2.text-center, .app-portfolio h2 {
+	padding: 10px 0 40px;
+	margin: 0;
+	font-weight: 600;
+	position: relative;
+}
+.mobile-add-development h2:after, #app-platform h2:after, .app-portfolio h2:after {
+	content: "";
+	height: 3px;
+	max-width: 200px;
+	background: #1ebc9c;
+	position: absolute;
+	bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+.mobile-add-development h2:before, #app-platform h2:before, .app-portfolio h2:before {
+	content: "";
+	height: 3px;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background: #1e2744;
+	bottom: 20px;
+}
+.mobile-add-development {
+    background: #fff;
+    padding: 30px 0;
+}
+.mobile-add-development .service_box {
+	background: #fff;
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	-ms-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+.mobile-add-development .service_box:hover {
+	box-shadow: 0px 1px 46px 0px rgba(0, 0, 0, 0.4);
+	-ms-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+.mobile-add-development .service_box p {
+	min-height: 120px;
+}
+.industry_box {
+	border-radius: 10px 10px 0 0;
+	margin-bottom: 25px;
+}
+.industry_box .industry-image {
+	border-radius: 10px 10px 0 0;
+}
+.industry-image, .industry_box .industry-image, .abs-div {
+	height: 245px;
+	position: relative;
+	border-bottom: 5px solid #21abce;
+	background-position: center center;
+	-ms-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+	background-size: 100%;
+}
+#app-platform .col-md-3:nth-child(1) .industry-image {
+ border-color: #21abce;
+}
+#app-platform .col-md-3:nth-child(2) .industry-image {
+ border-color: #e63434;
+}
+#app-platform .col-md-3:nth-child(3) .industry-image {
+ border-color: #ff963a;
+}
+#app-platform .col-md-3:nth-child(4) .industry-image {
+ border-color: #fdc300;
+}
+#app-platform .col-md-3:nth-child(5) .industry-image {
+ border-color: #fdc300;
+}
+#app-platform .col-md-3:nth-child(6) .industry-image {
+ border-color: #ff3980;
+}
+#app-platform .col-md-3:nth-child(7) .industry-image {
+ border-color: #008972;
+}
+#app-platform .col-md-3:nth-child(8) .industry-image {
+ border-color: #5b71ab;
+}
+#app-platform .col-md-3:nth-child(9) .industry-image {
+ border-color: #5caf36;
+}
+#app-platform .col-md-3:nth-child(10) .industry-image {
+ border-color: #609fed;
+}
+#app-platform .col-md-3:nth-child(11) .industry-image {
+ border-color: #8154c9;
+}
+#app-platform .col-md-3:nth-child(12) .industry-image {
+ border-color: #ef7437;
+}
+#app-platform .col-md-3:nth-child(2) .icon {
+ background-position: -60px 0;
+}
+ #app-platform .col-md-3:nth-child(3) .icon {
+ background-position: -120px 0;
+}
+ #app-platform .col-md-3:nth-child(4) .icon {
+ background-position: -180px 0;
+}
+ #app-platform .col-md-3:nth-child(5) .icon {
+ background-position: 0 -60px;
+}
+ #app-platform .col-md-3:nth-child(6) .icon {
+ background-position: -60px -60px;
+}
+ #app-platform .col-md-3:nth-child(7) .icon {
+ background-position: -120px -60px;
+}
+ #app-platform .col-md-3:nth-child(8) .icon {
+ background-position: -180px -60px;
+}
+ #app-platform .col-md-3:nth-child(9) .icon {
+ background-position: 0 -120px;
+}
+ #app-platform .col-md-3:nth-child(10) .icon {
+ background-position: -60px -120px;
+}
+ #app-platform .col-md-3:nth-child(11) .icon {
+ background-position: -120px -120px;
+}
+ #app-platform .col-md-3:nth-child(12) .icon {
+ background-position: -180px -120px;
+}
+.industry_box h4 {
+	text-align: center;
+	background: #fff;
+	margin: 0;
+	padding: 15px;
+	font-size: 18px;
+	font-weight: 600;
+	border-radius: 0 0 10px 10px;
+}
+.industry-image:hover {
+	background-size: 110%;
+}
+.abs-div {
+	background-color: rgba(0, 0, 0, 0.5);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+	border-radius: 10px 10px 0 0;
+}
+.industry-image .icon {
+	height: 60px;
+	width: 60px;
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-image: url(https://kodecube.com/inner/img/icons/sprite_icons.png);
+}
+.industry_box h5 {
+	position: absolute;
+	background: #21abce;
+	bottom: 0;
+	margin: auto;
+	right: 0;
+	left: 0;
+	display: inline-block;
+	max-width: 150px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.industry_box h5 {
+	background: #21abce;
+}
+.mobile-add-development .service_box figure {
+	text-align: center;
+}
+.mobile-add-development .service_box img {
+	max-width: 150px;
+}
+.app-portfolio {
+	padding: 50px 0;
+}
+.app-portfolio .caption {
+	position: relative;
+}
+.app-portfolio .caption .name {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #00000052;
+	text-align: center;
+	line-height: 100%;
+	vertical-align: middle;
+	opacity: 0;
+	visibility: hidden;
+	-ms-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+.app-portfolio .caption:hover .name {
+	opacity: 1;
+	visibility: visible;
+	-ms-transition: all 0.3s linear 0s;
+	-webkit-transition: all 0.3s linear 0s;
+	-o-transition: all 0.3s linear 0s;
+	transition: all 0.3s linear 0s;
+}
+.app-portfolio .caption .name .wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.app-portfolio .caption .name .wrapper .text {
+	display: table-cell;
+	vertical-align: middle;
+}
+.app-portfolio .caption .name .wrapper .text a {
+	display: inline-block;
+	background: #25be9f;
+	color: #fff;
+	padding: 10px;
+	border-radius: 5px;
+	border: solid 5px;
+	position: relative;
+}
+.app-portfolio .caption .name .wrapper .text a:before {
+	position: absolute;
+	background: white;
+	width: 8px;
+	height: 8px;
+	top: 103%;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	content: "";
+	transform: rotate(45deg);
+	z-index: 0;
+}

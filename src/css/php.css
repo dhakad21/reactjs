@@ -1,0 +1,101 @@
+.php-services .row {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+#php-development {
+	background: url(../images/background/php.jpg);
+	padding: 70px 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 400px;
+}
+.php-development-services {
+	margin-bottom: 10px;
+	padding: 5px;
+	position: relative;
+}
+.php-development-services:before, .php-development-services:after {
+	position: absolute;
+	width: 0px;
+	content: "";
+	top: 0;
+	bottom: 0;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.php-development-services:before {
+	left: 0;
+	border-bottom: solid 10px #26a3bf;
+	border-top: solid 10px #3f73a2;
+}
+.php-development-services:after {
+	right: 0;
+	border-bottom: solid 10px #f9867f;
+	border-top: solid 10px #fbb16a;
+}
+.php-development-services:hover:before {
+	border-left: solid 10px #6a7db6;
+}
+.php-development-services:hover:after {
+	border-right: solid 10px #3f73a2;
+}
+.php-development-services:hover:before, .php-development-services:hover:after {
+	width: 50%;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.java-development-services, .java-j2ee-development, .java-product-development, .java-migration-services {
+	background: rgba(224, 216, 216, 0.2);
+}
+#php-development h3, #php-development p {
+	color: #fff;
+}
+.text-container {
+	display: table;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.text-overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.text-wrapper {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+.text-aria {
+	vertical-align: middle;
+	display: table-cell;
+}
+#php-development img, .php-development-services img {
+	width: auto;
+	max-height: 300px;
+}
+.php-services #image {
+	text-align: center;
+}
+@media (min-width: 768px) {
+.col-md-6 {
+ -ms-flex: 0 0 50%;
+ flex: 0 0 50%;
+ max-width: 50%;
+}
+.col-md-6 {
+ -ms-flex: 0 0 50%;
+ flex: 0 0 50%;
+ max-width: 50%;
+}
+.order-md-2 {
+ -ms-flex-order: 2;
+ order: 2;
+}
+}

@@ -1,0 +1,41 @@
+.smo_banner {
+    background: url(../images/laravel/laravel-banner.jpg);
+    padding: 150px 0;
+    background-size: cover;
+}
+.smo_banner .image h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.smo_banner .image h4.text-center {
+    color: #fff;
+    font-size: 30px;
+}
+.smo-services .left_cols {
+    background: #1ebc9c;
+    padding: 15px;
+    border-radius: 10px;
+}
+.smo-services .left_cols h1, .smo-services .left_cols h1 p {
+    color: #fff;
+}
+.smo-services .left_cols .right-mark {
+    background-position: center;
+    background-size: 15px;
+    height: 15px;
+}
+.smo-services .block-content .right-mark {
+    float: left;
+    background-position: center;
+    height: 35px;
+    background-size: 22px;
+    width: 40px;
+}
+@media(min-width:768px) {
+.list-inline>li:first-child span.icon {
+    min-height: 190px;
+}
+}

@@ -1,0 +1,141 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 19/06/2018 11:23
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-innovation:before { content: "\f100"; }
+.flaticon-presentation:before { content: "\f101"; }
+.flaticon-software:before { content: "\f102"; }
+.flaticon-crm:before { content: "\f103"; }
+.flaticon-bitcoin:before { content: "\f104"; }
+.flaticon-cloud-computing-6:before { content: "\f105"; }
+.flaticon-settings:before { content: "\f106"; }
+.flaticon-networking-1:before { content: "\f107"; }
+.flaticon-cloud-computing-5:before { content: "\f108"; }
+.flaticon-cloud-computing-4:before { content: "\f109"; }
+.flaticon-network:before { content: "\f10a"; }
+.flaticon-cloud-computing-3:before { content: "\f10b"; }
+.flaticon-upload:before { content: "\f10c"; }
+.flaticon-cloud-computing-2:before { content: "\f10d"; }
+.flaticon-cloud-computing-1:before { content: "\f10e"; }
+.flaticon-cloud-computing:before { content: "\f10f"; }
+.flaticon-search:before { content: "\f110"; }
+.flaticon-online-shop:before { content: "\f111"; }
+.flaticon-screen:before { content: "\f112"; }
+.flaticon-funnel:before { content: "\f113"; }
+.flaticon-ranking:before { content: "\f114"; }
+.flaticon-viral-marketing:before { content: "\f115"; }
+.flaticon-hosting:before { content: "\f116"; }
+.flaticon-mobile-programming:before { content: "\f117"; }
+.flaticon-cloud-coding:before { content: "\f118"; }
+.flaticon-c-document:before { content: "\f119"; }
+.flaticon-programming:before { content: "\f11a"; }
+.flaticon-api:before { content: "\f11b"; }
+.flaticon-php:before { content: "\f11c"; }
+.flaticon-smartphone-3:before { content: "\f11d"; }
+.flaticon-smartwatch:before { content: "\f11e"; }
+.flaticon-smartphone-2:before { content: "\f11f"; }
+.flaticon-smartphone-1:before { content: "\f120"; }
+.flaticon-smartphone:before { content: "\f121"; }
+.flaticon-ux-design:before { content: "\f122"; }
+.flaticon-analysis:before { content: "\f123"; }
+.flaticon-responsive:before { content: "\f124"; }
+.flaticon-website:before { content: "\f125"; }
+.flaticon-startup:before { content: "\f126"; }
+.flaticon-loupe:before { content: "\f127"; }
+.flaticon-opencart:before { content: "\f128"; }
+.flaticon-android:before { content: "\f129"; }
+.flaticon-apple:before { content: "\f12a"; }
+.flaticon-magento:before { content: "\f12b"; }
+.flaticon-joomla:before { content: "\f12c"; }
+.flaticon-wordpress-logo:before { content: "\f12d"; }
+.flaticon-rocket-1:before { content: "\f12e"; }
+.flaticon-rocket:before { content: "\f12f"; }
+.flaticon-networking:before { content: "\f130"; }
+.flaticon-browser:before { content: "\f131"; }
+.flaticon-computer:before { content: "\f132"; }
+    
+    $font-Flaticon-innovation: "\f100";
+    $font-Flaticon-presentation: "\f101";
+    $font-Flaticon-software: "\f102";
+    $font-Flaticon-crm: "\f103";
+    $font-Flaticon-bitcoin: "\f104";
+    $font-Flaticon-cloud-computing-6: "\f105";
+    $font-Flaticon-settings: "\f106";
+    $font-Flaticon-networking-1: "\f107";
+    $font-Flaticon-cloud-computing-5: "\f108";
+    $font-Flaticon-cloud-computing-4: "\f109";
+    $font-Flaticon-network: "\f10a";
+    $font-Flaticon-cloud-computing-3: "\f10b";
+    $font-Flaticon-upload: "\f10c";
+    $font-Flaticon-cloud-computing-2: "\f10d";
+    $font-Flaticon-cloud-computing-1: "\f10e";
+    $font-Flaticon-cloud-computing: "\f10f";
+    $font-Flaticon-search: "\f110";
+    $font-Flaticon-online-shop: "\f111";
+    $font-Flaticon-screen: "\f112";
+    $font-Flaticon-funnel: "\f113";
+    $font-Flaticon-ranking: "\f114";
+    $font-Flaticon-viral-marketing: "\f115";
+    $font-Flaticon-hosting: "\f116";
+    $font-Flaticon-mobile-programming: "\f117";
+    $font-Flaticon-cloud-coding: "\f118";
+    $font-Flaticon-c-document: "\f119";
+    $font-Flaticon-programming: "\f11a";
+    $font-Flaticon-api: "\f11b";
+    $font-Flaticon-php: "\f11c";
+    $font-Flaticon-smartphone-3: "\f11d";
+    $font-Flaticon-smartwatch: "\f11e";
+    $font-Flaticon-smartphone-2: "\f11f";
+    $font-Flaticon-smartphone-1: "\f120";
+    $font-Flaticon-smartphone: "\f121";
+    $font-Flaticon-ux-design: "\f122";
+    $font-Flaticon-analysis: "\f123";
+    $font-Flaticon-responsive: "\f124";
+    $font-Flaticon-website: "\f125";
+    $font-Flaticon-startup: "\f126";
+    $font-Flaticon-loupe: "\f127";
+    $font-Flaticon-opencart: "\f128";
+    $font-Flaticon-android: "\f129";
+    $font-Flaticon-apple: "\f12a";
+    $font-Flaticon-magento: "\f12b";
+    $font-Flaticon-joomla: "\f12c";
+    $font-Flaticon-wordpress-logo: "\f12d";
+    $font-Flaticon-rocket-1: "\f12e";
+    $font-Flaticon-rocket: "\f12f";
+    $font-Flaticon-networking: "\f130";
+    $font-Flaticon-browser: "\f131";
+    $font-Flaticon-computer: "\f132";

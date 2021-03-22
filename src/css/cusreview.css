@@ -1,0 +1,31 @@
+.kc-shedule {
+    background: linear-gradient(40deg, #45cafc, #303f9f);
+}
+.kc-shedule .col-sm-4 {
+    border-right: solid 1px #1ed7b5;
+}
+.kc-shedule .caption {
+    padding: 50px 3px;
+    display: inline-block;
+}
+.kc-shedule .caption .icon {
+    padding-right: 15px;
+}
+.kc-shedule .icon i {
+    color: #fff;
+    font-size: 60px;
+}
+.kc-shedule .text {
+    float: left;
+}
+.kc-shedule h1 {
+    color: #fff;
+    font-size: 35px;
+    display: inline-block;
+    margin: 0;
+}
+.kc-shedule .text p {
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+}

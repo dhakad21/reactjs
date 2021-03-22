@@ -1,0 +1,175 @@
+.bgblue {
+    background: #00bcd4;
+}
+.main-banner .points {
+    right: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.icon-wrapper {
+    text-align: center;
+    padding: 0 0 20px;
+    display: inline-block;
+    min-width: 100%;
+}
+
+.main-banner  img.w-100 {
+    display: block;
+    width: 100%;
+}
+
+.main-banner .points .icon-wrapper .first-child {
+    transform: translateY(-200px);
+    transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+}
+.main-banner .active .points .icon-wrapper .first-child {
+    transform: translateY(0px);
+    transition: all 1s ease-in-out;
+}
+.main-banner .active .points .icon-wrapper .sec-child {
+    transform: translateY(0px);
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+.main-banner .points .icon-wrapper .sec-child {
+    transform: translateY(-200px);
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+.main-banner .active .points .icon-wrapper .sec-child {
+    transform: translateY(0px);
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+    -moz-transition: all 1.5s ease-in-out;
+    -o-transition: all 1.5s ease-in-out;
+}
+.main-banner .points .icon-wrapper .third-child {
+    transform: translateY(-200px);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+.main-banner .active .points .icon-wrapper .third-child {
+    transform: translateY(0px);
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+}
+.main-banner .points .icon-wrapper .forth-child {
+    transform: translateY(-200px);
+    transition: all 2.5s ease-in-out;
+    -webkit-transition: all 2.5s ease-in-out;
+    -moz-transition: all 2.5s ease-in-out;
+    -o-transition: all 2.5s ease-in-out;
+}
+.main-banner .active .points .icon-wrapper .forth-child {
+    transform: translateY(0px);
+    transition: all 2.5s ease-in-out;
+    -webkit-transition: all 2.5s ease-in-out;
+    -moz-transition: all 2.5s ease-in-out;
+    -o-transition: all 2.5s ease-in-out;
+}
+.main-banner .points .icon-wrapper .last-child {
+    transform: translateY(-200px);
+    transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+}
+.main-banner .active .points .icon-wrapper .last-child {
+    transform: translateY(0px);
+    transition: all 3s ease-in-out;
+}
+
+.icon-wrapper .inline-style {
+    display: inline-block;
+}
+
+.main-banner .points h1, .main-banner .points h3, .main-banner .points h4 {
+    padding: 0px 50px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.main-banner .points h1 {
+    transition: all 1s cubic-bezier(0, 1, .98, 0);
+    transform: translateX(-200px);
+    font-size: 62px;
+}
+.main-banner .points h3 {
+    transition: all 1s cubic-bezier(0, 1, .98, 0);
+    transform: translateX(-100px);
+}
+.main-banner .active .points h1, .main-banner .active .points h3, .main-banner .active .points h4, .main-banner .active .points .build-app:first-child, .main-banner .active .points .build-app:last-child {
+    transform: translateX(0px);
+    transition: all 3s ease-in-out;
+}
+.main-banner .bgyellow.left-part {
+    border-radius: 15px 0 0px 15px;
+    margin-right: 3px;
+}
+.main-banner .bgyellow a, .main-banner .bgblue a {
+    color: #fff;
+}
+
+.main-banner .bgyellow, .main-banner .bgblue {
+    border: none;
+    display: inline-block;
+    min-width: 150px;
+}
+
+.points-inner .build-app {
+    padding: 20px 30px;
+}
+.build-app {
+    color: #fff;
+    display: block;
+    font-weight: bold;
+    min-height: 40px;
+    min-width: 120px;
+    padding: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    background: #1fc09f;
+}
+
+
+.main-banner .points .points-wrap {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.main-banner .points .points-wrap .points-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.main-banner .points .points-wrap .points-inner .inner-wrapper {
+    display: inline-block;
+    text-align: left;
+}
+.main-banner .points h1 {
+    transition: all 1s cubic-bezier(0, 1, .98, 0);
+    transform: translateX(-200px);
+    font-size: 62px;
+}
+.main-banner .points h1, .main-banner .points h3, .main-banner .points h4 {
+    padding: 0px 50px;
+    color: #fff;
+    text-transform: capitalize;
+}
+.main-banner .bgblue.right-part {
+    border-radius: 0 15px 15px 0;
+}

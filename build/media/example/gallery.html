@@ -1,0 +1,314 @@
+<!-- Custom style for the demo-->
+  	
+  	<!-- Media Boxes CSS files -->
+  	<link rel="stylesheet" href="../plugin/components/Font Awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../plugin/components/Magnific Popup/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="../plugin/css/mediaBoxes.css">
+
+	<style>
+
+	/* == LETS MODIFY SOME COLORS AND STYLE FOR THE DEMO == */
+
+		/* hide no more entries button */
+		.media-boxes-no-more-entries{
+			display: none;
+		}
+
+		/* make your own style of the filter */
+		.filters-container{
+			margin-bottom: 20px;
+		}
+		.custom-filter{
+			padding: 0;
+			text-align: right;
+		}
+		.custom-filter li{
+			list-style: none;
+			display: inline-block;
+			margin-left: 18px;
+			font-size: 12px;
+		}
+		.custom-filter li a{
+			color: #999;
+			text-decoration: none;
+		}
+		.custom-filter li a:hover{
+			color: #333;
+		}
+		.custom-filter li a.selected{
+			color: #D1474C !important;
+		}
+
+		/* Set the style of the thumbnail overlay items */
+		.media-box-title{
+			color: #fff;
+			font-size: 11px;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		    letter-spacing: 2px;
+		    line-height: 28px;
+		}
+		.media-box-date{
+			color: #F2F2F2;
+			font-size: 10px;
+		}
+
+		/* Remove box shadow and border-radius from the media boxes */
+		.media-box-container{
+			  -webkit-border-radius: 0px;
+			  	 -moz-border-radius: 0px;
+			  		  border-radius: 0px;
+
+			  -webkit-box-shadow: none;
+			  	 -moz-box-shadow: none;
+			  	   -o-box-shadow: none;
+			      -ms-box-shadow: none;
+			  		  box-shadow: none;
+		}
+
+		/* thumbnail overlay background */
+		.thumbnail-overlay{
+    		background-color: rgba(0,0,0, .40);
+
+    		-webkit-transition: background-color 0.2s ease-out;
+		       -moz-transition: background-color 0.2s ease-out;
+		         -o-transition: background-color 0.2s ease-out;
+		            transition: background-color 0.2s ease-out;
+		}
+
+		/* thumbnail overlay background (in the first grid change the initial background) */
+		#grid .thumbnail-overlay{
+    		background-color: rgba(0,0,0, 0);
+		}
+
+		/* hover effect on the thumbnail-overlay */
+		.thumbnail-overlay:hover{
+    		background-color: rgba(0,0,0, .20) !important;
+		}
+		
+		/* hover effect on the image */
+		.media-box-image img{
+		    -webkit-transition: transform 0.6s ease-in-out;
+		       -moz-transition: transform 0.6s ease-in-out;
+		         -o-transition: transform 0.6s ease-in-out;
+		        -ms-transition: transform 0.6s ease-in-out;
+		            transition: transform 0.6s ease-in-out;
+
+		    -webkit-transform-origin: bottom left;
+		       -moz-transform-origin: bottom left;
+		         -o-transform-origin: bottom left;
+		        -ms-transform-origin: bottom left;
+		            transform-origin: bottom left;
+		}
+		.media-box-image:hover img{
+		    -webkit-transform: scale(1.2) translate(-20px);
+		       -moz-transform: scale(1.2) translate(-20px);
+		         -o-transform: scale(1.2) translate(-20px);
+		        -ms-transform: scale(1.2) translate(-20px);
+		            transform: scale(1.2) translate(-20px);
+		}
+
+		/* Change alignment in grid 2 */
+		#grid2 .thumbnail-overlay>div.aligment>div.aligment{
+			vertical-align: bottom;
+			padding-bottom: 40px;
+		}
+
+		.thumbnail-overlay .media-box-title{
+			font-size: 16px;
+		}
+
+		.thumbnail-overlay .media-box-date{
+			font-style: italic;
+			font-size: 12px;
+		}
+
+	</style>
+	
+</head>
+<body>
+
+	
+
+	<div class="grid-section">	
+
+		<div class="content grid-container">
+
+		<!--  ================== MEDIA BOXES ================== -->
+        
+        <div class="filters-container">
+            
+            <ul class="custom-filter" id="filter">
+              <li><a class="selected" href="#" data-filter="*">All</a></li>
+              <li><a href="#" data-filter=".indoors">Indoors</a></li>
+              <li><a href="#" data-filter=".outside">Outside</a></li>
+              <li><a href="#" data-filter=".photography">Photography</a></li>
+            </ul>
+        </div>
+
+        <div id="grid">
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                <div class="media-box indoors">
+                    <div class="media-box-image">
+                        <div data-width="752" data-height="500" data-thumbnail="gallery/thumbnails/thumb-36.jpg" ></div>
+                        
+                        <div class="thumbnail-overlay overlay-always-visible mb-open-popup" data-src="gallery/img-36.jpg">
+                            <div class="thumbnail-overlay-animated" data-from="top">
+                            	<div class="media-box-title">Psico consecteture</div>
+                            </div>
+                            <div class="thumbnail-overlay-animated" data-from="bottom">
+                            	<div class="media-box-date">December 10, 2013</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                <div class="media-box outside">
+                    <div class="media-box-image">
+                        <div data-width="752" data-height="1000" data-thumbnail="gallery/thumbnails/thumb-39.jpg" ></div>
+                        
+                        <div class="thumbnail-overlay overlay-always-visible mb-open-popup" data-src="gallery/img-39.jpg">
+                            <div class="thumbnail-overlay-animated" data-from="top">
+                            	<div class="media-box-title">Sed do eiusmod</div>
+                            </div>
+                            <div class="thumbnail-overlay-animated" data-from="bottom">
+                            	<div class="media-box-date">December 10, 2013</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                <div class="media-box photography">
+                    <div class="media-box-image">
+                        <div data-width="752" data-height="560" data-thumbnail="gallery/thumbnails/thumb-43.jpg" ></div>
+                        
+                        <div class="thumbnail-overlay overlay-always-visible mb-open-popup" data-src="gallery/img-43.jpg">
+                            <div class="thumbnail-overlay-animated" data-from="top">
+                            	<div class="media-box-title">Incididunt ut labore</div>
+                            </div>
+                            <div class="thumbnail-overlay-animated" data-from="bottom">
+                            	<div class="media-box-date">December 10, 2013</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             
+       
+                
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                
+                
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                
+         
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                
+                
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                   
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                  
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                 
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                      
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                 
+                
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                 
+                
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                 
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                    
+
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+                  
+		
+		<!-- -------------------------- BOX MARKUP -------------------------- -->      
+                  
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                  
+
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                 
+                
+        <!-- -------------------------- BOX MARKUP -------------------------- -->      
+                                         
+              
+       	</div> <!-- #grid -->
+
+        <!--  ================== END MEDIA BOXES ================== -->
+
+		</div> <!-- #grid-container -->
+
+	</div>
+	
+	
+	<!-- jQuery 1.8+ -->
+	<script src="../plugin/components/jQuery/jquery-1.11.3.min.js"></script>
+	
+	<!-- Media Boxes JS files -->
+	<script src="../plugin/components/Isotope/jquery.isotope.min.js"></script>
+	<script src="../plugin/components/imagesLoaded/jquery.imagesLoaded.min.js"></script>
+	<script src="../plugin/components/Transit/jquery.transit.min.js"></script>
+	<script src="../plugin/components/jQuery Easing/jquery.easing.js"></script>
+	<script src="../plugin/components/Waypoints/waypoints.min.js"></script>
+	<script src="../plugin/components/Modernizr/modernizr.custom.min.js"></script>
+	<script src="../plugin/components/Magnific Popup/jquery.magnific-popup.min.js"></script>
+	<script src="../plugin/js/jquery.mediaBoxes.dropdown.js"></script>
+	<script src="../plugin/js/jquery.mediaBoxes.js"></script>
+
+	<script>
+
+	    $('#grid').mediaBoxes({
+	    	filterContainer: '#filter',
+	    	search: '#search',
+	    	columns: 3,
+	    	boxesToLoadStart: 9,
+	    	boxesToLoad: 9,
+	    	horizontalSpaceBetweenBoxes: 30,
+        	verticalSpaceBetweenBoxes: 30,
+        	minBoxesPerFilter: 20,
+        	deepLinkingOnFilter: false,
+	    }); 
+
+	    $('#grid2').mediaBoxes({
+	    	filterContainer: '#filter2',
+	    	search: '#search',
+	    	columns: 3,
+	    	boxesToLoadStart: 10,
+	    	boxesToLoad: 9,
+	    	horizontalSpaceBetweenBoxes: 20,
+        	verticalSpaceBetweenBoxes: 20,
+        	minBoxesPerFilter: 20,
+        	deepLinkingOnFilter: false,
+	    }); 
+
+	</script>
+
+
+	<!-- Bootstrap JS file -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/demo.js"></script>

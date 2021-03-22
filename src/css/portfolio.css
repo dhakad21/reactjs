@@ -1,0 +1,177 @@
+/* == LETS MODIFY SOME COLORS AND STYLE FOR THE DEMO == */
+
+		/* hide no more entries button */
+		.media-boxes-no-more-entries {
+	display: none;
+}
+/* make your own style of the filter */
+		.filters-container {
+	margin-bottom: 20px;
+}
+.custom-filter {
+	padding: 0;
+	text-align: center;
+}
+.custom-filter li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 18px;
+	font-size: 12px;
+}
+.custom-filter li a {
+    display: block;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-transform: capitalize;
+    position: relative;
+    min-width: 40px;
+    overflow: hidden;
+    background: #1ebc9a;
+    color: #fff;
+    border-radius: 5px;
+    border: solid 2px #fff;
+}
+
+.custom-filter li a:hover {
+	color: #333;
+}
+.custom-filter li a.selected {
+    color: #333;
+    background: #fff;
+    border: solid 2px #333;
+}
+/* Set the style of the thumbnail overlay items */
+		.media-box-title {
+	color: #fff;
+	font-size: 11px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 28px;
+}
+.media-box-date {
+	color: #342d2d;
+	font-size: 10px;
+}
+/* Remove box shadow and border-radius from the media boxes */
+		.media-box-container {
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-o-box-shadow: none;
+	-ms-box-shadow: none;
+	box-shadow: none;
+}
+/* thumbnail overlay background */
+		.thumbnail-overlay {
+	background-color: rgba(0, 0, 0, .40);
+	-webkit-transition: background-color 0.2s ease-out;
+	-moz-transition: background-color 0.2s ease-out;
+	-o-transition: background-color 0.2s ease-out;
+	transition: background-color 0.2s ease-out;
+}
+/* thumbnail overlay background (in the first grid change the initial background) */
+		#grid .thumbnail-overlay {
+	background-color: rgba(0, 0, 0, 0);
+}
+/* hover effect on the thumbnail-overlay */
+		.thumbnail-overlay:hover {
+	background-color: rgba(0, 0, 0, .20) !important;
+}
+/* hover effect on the image */
+		.media-box-image img {
+	-webkit-transition: transform 0.6s ease-in-out;
+	-moz-transition: transform 0.6s ease-in-out;
+	-o-transition: transform 0.6s ease-in-out;
+	-ms-transition: transform 0.6s ease-in-out;
+	transition: transform 0.6s ease-in-out;
+	-webkit-transform-origin: bottom left;
+	-moz-transform-origin: bottom left;
+	-o-transform-origin: bottom left;
+	-ms-transform-origin: bottom left;
+	transform-origin: bottom left;
+}
+.media-box-image:hover img {
+	-webkit-transform: scale(1.2) translate(-20px);
+	-moz-transform: scale(1.2) translate(-20px);
+	-o-transform: scale(1.2) translate(-20px);
+	-ms-transform: scale(1.2) translate(-20px);
+	transform: scale(1.2) translate(-20px);
+}
+/* Change alignment in grid 2 */
+		#grid2 .thumbnail-overlay>div.aligment>div.aligment {
+	vertical-align: bottom;
+	padding-bottom: 40px;
+}
+.thumbnail-overlay .media-box-title {
+	font-size: 16px;
+}
+.thumbnail-overlay .media-box-date {
+	font-style: italic;
+	font-size: 12px;
+	opacity: 0;
+}
+.aligment .bottom-part {
+    display: none;
+}
+.thumbnail-overlay-animated {
+    background: #fff;
+    padding: 15px;
+}
+.media-box-title {
+    letter-spacing: 0px;
+    line-height: normal;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    font-size: 18px;
+}
+/* popup updated  */
+[role=tooltip].popup-content {
+    width: auto;
+    max-width: 500px;
+}
+[data-popup=tooltip].popup-overlay {
+    background: rgba(0,0,0,.5);
+}
+.thumbnail-overlay-animated {
+    background: #fff;
+    padding: 15px;
+}
+.thumbnail-overlay-animated {
+    position: relative;
+    opacity: 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.media-box-image {
+    position: relative;
+}
+.media-box-image .mb-open-popup {
+    position: absolute;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(50px);
+    transition: 0.3s all ease-in-out;
+    cursor: pointer;
+}
+.media-box-image:hover .mb-open-popup {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.media-box-image:hover .thumbnail-overlay-animated {    
+    opacity: 1;    
+}
+.media-box-image .mb-open-popup p.media-box-title {
+    text-align: center;
+}
+#portfolio #image img {
+    max-width: 100%;
+}
+/* popup updated  */
